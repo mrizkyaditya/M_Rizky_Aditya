@@ -8,13 +8,13 @@
             if($email == "1@gmail.com" && $password == '1' ) {
                header('location: ./../index.html');
             } else {
-               echo 'Forgot your email or password';
+               echo 'Lupa Email atau Password';
             }
          } else {
-            echo 'Password must be at least 6 digits long and contain only numbers';
+            echo 'Password harus minimal 6 karakter dan satu angka unik';
          }
       } else {
-         echo 'Email must contain letters and at least one number';
+         echo 'Email harus berupa huruf dan setidaknya satu angka';
       }
    }
 ?>
