@@ -7,10 +7,10 @@
          if($email == "1@gmail.com" && $password == '1' ) {
             header('location: ./../index.html');
          } else {
-            echo 'Forgot your email or password';
+            echo 'Salah Email atau Password';
          }
       } else {
-         echo 'Email must contain letters and at least one number';
+         echo 'Email harus berupa huruf setidaknya minimal satu angka ';
       }
    }
 ?>
