@@ -47,13 +47,6 @@
                     icon: 'warning',
                     confirmButtonText: 'OK'
                 });
-            } else if (status == "invalid_password") {
-                Swal.fire({
-                    title: 'Password Tidak Valid',
-                    text: 'Password harus terdiri dari minimal 6 digit angka.',
-                    icon: 'warning',
-                    confirmButtonText: 'OK'
-                });
             }
         </script>
     <?php endif; ?>
