@@ -40,20 +40,6 @@
                     icon: 'error',
                     confirmButtonText: 'Coba Lagi'
                 });
-            } else if (status == "invalid_email") {
-                Swal.fire({
-                    title: 'Email Tidak Valid',
-                    text: 'Email harus mengandung huruf dan setidaknya satu angka.',
-                    icon: 'warning',
-                    confirmButtonText: 'OK'
-                });
-            } else if (status == "invalid_password") {
-                Swal.fire({
-                    title: 'Password Tidak Valid',
-                    text: 'Password harus terdiri dari minimal 6 digit angka.',
-                    icon: 'warning',
-                    confirmButtonText: 'OK'
-                });
             }
         </script>
     <?php endif; ?>
