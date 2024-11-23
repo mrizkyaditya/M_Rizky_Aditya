@@ -4,7 +4,7 @@
       $password = $_POST['password'];
 
       if (preg_match('/[a-zA-Z]+[0-9]+/', $email)) {
-         if($email == "1@gmail.com" && $password == '1' ) {
+         if($email == "user@gmail.com" && $password == 'user1' ) {
             header('location: ./../index.html');
          } else {
             echo 'Salah Email atau Password';
