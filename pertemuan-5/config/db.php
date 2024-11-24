@@ -4,7 +4,7 @@ session_start();
 $DBHOST = 'localhost';
 $DBUSER = 'root';
 $DBPASSWORD = '';
-$DBNAME = 'pemweb-db';
+$DBNAME = 'pemwebteori';
 
 
 $db_connect = mysqli_connect($DBHOST, $DBUSER, $DBPASSWORD, $DBNAME);
@@ -12,4 +12,3 @@ $db_connect = mysqli_connect($DBHOST, $DBUSER, $DBPASSWORD, $DBNAME);
 if(!$db_connect){
     die("failed connect to mysql " . mysqli_connect_error()); 
 }
-
