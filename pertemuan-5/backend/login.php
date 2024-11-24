@@ -16,7 +16,7 @@ if (isset($_POST['submit'])) {
             die;
         }
     } else {
-        echo "Email atau password salah";
+        echo "Selamat datang di kode Pertemuan 5";
         die;
     }
 }
