@@ -13,16 +13,17 @@ if(isset($_POST['submit'])) {
         
         if(password_verify($password,$data['password'])) {
             echo "selamat datang ".$data['name'];
+
             die;
 
-            //otorisasi
         } else {
             echo "password salah";
             die;
         }
 
     } else {
-        echo "Selamat datang di kode Pertemuan 6";
+        echo "Selamat Datang di kode Pertemuan 6";
+        header('Location: ../show.php');
         die;
     }
 }
