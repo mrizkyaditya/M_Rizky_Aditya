@@ -10,14 +10,16 @@ if (isset($_POST['submit'])) {
         $data = mysqli_fetch_assoc($user);
         if (password_verify($password, $data['password'])) {
             echo "Selamat datang " . $data['name'];
-            die;
+            exit;
         } else {
             echo "Password salah";
-            die;
+            header('Location: login.php');
+            exit;
         }
     } else {
         echo "Selamat datang di kode Pertemuan 5";
-        die;
+        header('Location: ../profile.php');
+        exit;
     }
 }
 ?>
